@@ -1,0 +1,76 @@
+/*Utilicen media queries, unidades relativas, Flexbox/Grid para que el sitio web sea responsivo*/
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-image: url(/img/fondo.jpg);
+    color: #ffe81f;
+    text-align: center;
+    padding: 30px;
+}
+
+.experiencias {
+    padding: 30px;
+    background-color: #f7f7f7;
+}
+
+.experiencia-contenedor {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid #ddd;
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+}
+
+.card img {
+    width: 250px;
+    height: auto;
+}
+
+.info {
+    padding: 50px;
+}
+
+.contacto {
+    padding: 50px;
+    background-color: #eee;
+}
+
+.contacto form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: auto;
+}
+
+.contacto input,
+.contacto textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.contacto button {
+    padding: 10px;
+    background-color: #ffe81f;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
